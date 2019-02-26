@@ -52,7 +52,7 @@ public class HelloWorld
 		*/
 		
 		
-		
+		/*
 		String firstName, middleName, lastName;
 		
 		System.out.println("Please enter first name: ");
@@ -63,7 +63,7 @@ public class HelloWorld
 		lastName = scanner.next();
 		
 		System.out.println("Full name is: " + firstName + " " + middleName + " " + lastName);
-		
+		*/
 		
 		
 		/*	
@@ -81,6 +81,79 @@ public class HelloWorld
 		String hello = "Hello\nWorld!";
 		System.out.println(hello);
 		*/
+		
+		// Examples of arrays
+    
+    /*
+    int[] scores = new int[10];
+    scores[0] = 40;
+    scores[1] = 52;
+
+    int firstScore = scores[0];
+
+    System.out.println("First Score: " + firstScore + " " + "Second Score: " + scores[1]);
+    */
+
+    /*
+    String[] days = new String[7];    // Declare a new array with 7 elements
+
+    days[0] = "Monday";   // Populate the array with some values
+    days[1] = "Tuesday";
+    days[2] = "Wednesday";
+    days[3] = "Thursday";
+    days[4] = "Friday";
+    days[5] = "Saturday";
+    days[6] = "Sunday";
+
+    System.out.println(days[3]);
+    */
+
+    /*
+    String[] days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+
+    days[4] = "woohoo";
+
+    System.out.println(days[4]);
+    System.out.println("The number of days in a week is "+ days.length);
+    */
+    /*
+    System.out.println("Please enter 5 animals");
+
+    String[] animals = new String[5];
+
+    animals[0] = scanner.next();
+    animals[1] = scanner.next();
+    animals[2] = scanner.next();
+    animals[3] = scanner.next();
+    animals[4] = scanner.next();
+
+    System.out.println("Your 5 aniamls are: " + animals[0] + " " + animals[1] + " " + animals[2] + " " + animals[3] + " " + animals[4]);
+    */
+    
+    /*
+    String[] animals = new String[5];
+   		
+    System.out.println("Enter animal name: ");
+  		animals[0] = scanner.next();
+  		
+  		System.out.println("Enter animal name: ");
+  		animals[1] = scanner.next();
+  		
+  		System.out.println("Enter animal name: ");
+  		animals[2] = scanner.next();
+  		
+  		System.out.println("Enter animal name: ");
+  		animals[3] = scanner.next();
+  		
+  		System.out.println("Enter animal name: ");
+  		animals[4] = scanner.next();
+  		
+  		System.out.println("First animal name: " + animals[0]);
+  		System.out.println("Second animal name: " + animals[1]);
+  		System.out.println("Third animal name: " + animals[2]);
+  		System.out.println("Fourth animal name: " + animals[3]);
+  		System.out.println("Fifth animal name: " + animals[4]);
+    */
 		
 		
 	
